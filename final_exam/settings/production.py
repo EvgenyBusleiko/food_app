@@ -13,7 +13,7 @@ ALLOWED_HOSTS = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'shooter$food_app',
+        'NAME': 'shooter$food',
         'USER': 'shooter',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
         'HOST': 'shooter.mysql.pythonanywhere-services.com',
